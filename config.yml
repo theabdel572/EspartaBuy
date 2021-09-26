@@ -1,0 +1,52 @@
+MySQL:
+    Host:
+    Port:
+    Database:
+    User:
+    Password:
+Messages:
+    NoPermission: "&cYou dont have permissions to use this command."
+
+Menu:
+    Name: "&aEspartaBuy"
+    RanksName: "&cRanks"
+    RainbowArmorsName: "&aRainbow Armors"
+    TagsName: "&dTags"
+
+RanksMenu:
+    Name: "&aRanks"
+    Slots: 54
+RainbowArmorsMenu:
+    Name: "&aRainbow Armors"
+    Slots: 54
+TagsMenu:
+    Name: "&aTags"
+    Slots: 54
+
+RanksMenuItems:
+    0:
+        Material: "DIAMOND_CHESTPLATE"
+        Name: "&aExampleRank"
+        Lore:
+        - "&aExample Lore"
+        - "&c(The Lore is not required to all items)."
+        Cost: 1000
+        Command: "lp user %player% parent set ExampleRank"
+RainbowArmorsMenuItems:
+    0:
+        Material: "GOLD_CHESTPLATE"
+        Name: "&aExample RainbowArmor"
+        Lore:
+        - "&aExample Lore"
+        - "&c(The Lore is not required to all items)."
+        Cost: 400
+        Command: "rainbowarmor set %player%"
+TagsMenuItems:
+    0:
+        Material: "NAME_TAG"
+        Name: "&aExample Tag"
+        Lore:
+        - "&aExample Lore"
+        - "&c(The Lore is not required to all items)."
+        Cost: 700
+        Command: "lp user %player% meta setprefix &aExampleTag"
